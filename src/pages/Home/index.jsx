@@ -17,7 +17,7 @@ const response = await api.get("movie/now_playing", {
     }
 })
             
-            setFilme(response.data.results.slice(0,10))
+            setFilme(response.data.results.slice(0,20))
             setLoading(false);
         }
 
